@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAFF21141C55AE53006D759E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF21131C55AE53006D759E /* main.m */; };
+		FAFF21171C55AE53006D759E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF21161C55AE53006D759E /* AppDelegate.m */; };
+		FAFF211A1C55AE53006D759E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF21191C55AE53006D759E /* ViewController.m */; };
+		FAFF211D1C55AE53006D759E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFF211B1C55AE53006D759E /* Main.storyboard */; };
+		FAFF211F1C55AE53006D759E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFF211E1C55AE53006D759E /* Assets.xcassets */; };
+		FAFF21221C55AE53006D759E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFF21201C55AE53006D759E /* LaunchScreen.storyboard */; };
+		FAFF212D1C55AE53006D759E /* ___easeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF212C1C55AE53006D759E /* ___easeUITests.m */; };
+		FAFF21381C55AE53006D759E /* ___easeUIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFF21371C55AE53006D759E /* ___easeUIUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAFF21291C55AE53006D759E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAFF21071C55AE53006D759E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAFF210E1C55AE53006D759E;
+			remoteInfo = "环信-easeUI";
+		};
+		FAFF21341C55AE53006D759E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAFF21071C55AE53006D759E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAFF210E1C55AE53006D759E;
+			remoteInfo = "环信-easeUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAFF210F1C55AE53006D759E /* 环信-easeUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "环信-easeUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFF21131C55AE53006D759E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAFF21151C55AE53006D759E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAFF21161C55AE53006D759E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAFF21181C55AE53006D759E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAFF21191C55AE53006D759E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAFF211C1C55AE53006D759E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAFF211E1C55AE53006D759E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAFF21211C55AE53006D759E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAFF21231C55AE53006D759E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFF21281C55AE53006D759E /* 环信-easeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "环信-easeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFF212C1C55AE53006D759E /* ___easeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___easeUITests.m"; sourceTree = "<group>"; };
+		FAFF212E1C55AE53006D759E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFF21331C55AE53006D759E /* 环信-easeUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "环信-easeUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFF21371C55AE53006D759E /* ___easeUIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___easeUIUITests.m"; sourceTree = "<group>"; };
+		FAFF21391C55AE53006D759E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAFF210C1C55AE53006D759E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFF21251C55AE53006D759E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFF21301C55AE53006D759E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAFF21061C55AE53006D759E = {
+			isa = PBXGroup;
+			children = (
+				FAFF21111C55AE53006D759E /* 环信-easeUI */,
+				FAFF212B1C55AE53006D759E /* 环信-easeUITests */,
+				FAFF21361C55AE53006D759E /* 环信-easeUIUITests */,
+				FAFF21101C55AE53006D759E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAFF21101C55AE53006D759E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF210F1C55AE53006D759E /* 环信-easeUI.app */,
+				FAFF21281C55AE53006D759E /* 环信-easeUITests.xctest */,
+				FAFF21331C55AE53006D759E /* 环信-easeUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAFF21111C55AE53006D759E /* 环信-easeUI */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF21151C55AE53006D759E /* AppDelegate.h */,
+				FAFF21161C55AE53006D759E /* AppDelegate.m */,
+				FAFF21181C55AE53006D759E /* ViewController.h */,
+				FAFF21191C55AE53006D759E /* ViewController.m */,
+				FAFF211B1C55AE53006D759E /* Main.storyboard */,
+				FAFF211E1C55AE53006D759E /* Assets.xcassets */,
+				FAFF21201C55AE53006D759E /* LaunchScreen.storyboard */,
+				FAFF21231C55AE53006D759E /* Info.plist */,
+				FAFF21121C55AE53006D759E /* Supporting Files */,
+			);
+			path = "环信-easeUI";
+			sourceTree = "<group>";
+		};
+		FAFF21121C55AE53006D759E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF21131C55AE53006D759E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAFF212B1C55AE53006D759E /* 环信-easeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF212C1C55AE53006D759E /* ___easeUITests.m */,
+				FAFF212E1C55AE53006D759E /* Info.plist */,
+			);
+			path = "环信-easeUITests";
+			sourceTree = "<group>";
+		};
+		FAFF21361C55AE53006D759E /* 环信-easeUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAFF21371C55AE53006D759E /* ___easeUIUITests.m */,
+				FAFF21391C55AE53006D759E /* Info.plist */,
+			);
+			path = "环信-easeUIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAFF210E1C55AE53006D759E /* 环信-easeUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFF213C1C55AE53006D759E /* Build configuration list for PBXNativeTarget "环信-easeUI" */;
+			buildPhases = (
+				FAFF210B1C55AE53006D759E /* Sources */,
+				FAFF210C1C55AE53006D759E /* Frameworks */,
+				FAFF210D1C55AE53006D759E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "环信-easeUI";
+			productName = "环信-easeUI";
+			productReference = FAFF210F1C55AE53006D759E /* 环信-easeUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAFF21271C55AE53006D759E /* 环信-easeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFF213F1C55AE53006D759E /* Build configuration list for PBXNativeTarget "环信-easeUITests" */;
+			buildPhases = (
+				FAFF21241C55AE53006D759E /* Sources */,
+				FAFF21251C55AE53006D759E /* Frameworks */,
+				FAFF21261C55AE53006D759E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAFF212A1C55AE53006D759E /* PBXTargetDependency */,
+			);
+			name = "环信-easeUITests";
+			productName = "环信-easeUITests";
+			productReference = FAFF21281C55AE53006D759E /* 环信-easeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAFF21321C55AE53006D759E /* 环信-easeUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFF21421C55AE53006D759E /* Build configuration list for PBXNativeTarget "环信-easeUIUITests" */;
+			buildPhases = (
+				FAFF212F1C55AE53006D759E /* Sources */,
+				FAFF21301C55AE53006D759E /* Frameworks */,
+				FAFF21311C55AE53006D759E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAFF21351C55AE53006D759E /* PBXTargetDependency */,
+			);
+			name = "环信-easeUIUITests";
+			productName = "环信-easeUIUITests";
+			productReference = FAFF21331C55AE53006D759E /* 环信-easeUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAFF21071C55AE53006D759E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = dongfanggong;
+				TargetAttributes = {
+					FAFF210E1C55AE53006D759E = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 66SM8PM29W;
+					};
+					FAFF21271C55AE53006D759E = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 66SM8PM29W;
+						TestTargetID = FAFF210E1C55AE53006D759E;
+					};
+					FAFF21321C55AE53006D759E = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 66SM8PM29W;
+						TestTargetID = FAFF210E1C55AE53006D759E;
+					};
+				};
+			};
+			buildConfigurationList = FAFF210A1C55AE53006D759E /* Build configuration list for PBXProject "环信-easeUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAFF21061C55AE53006D759E;
+			productRefGroup = FAFF21101C55AE53006D759E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAFF210E1C55AE53006D759E /* 环信-easeUI */,
+				FAFF21271C55AE53006D759E /* 环信-easeUITests */,
+				FAFF21321C55AE53006D759E /* 环信-easeUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAFF210D1C55AE53006D759E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFF21221C55AE53006D759E /* LaunchScreen.storyboard in Resources */,
+				FAFF211F1C55AE53006D759E /* Assets.xcassets in Resources */,
+				FAFF211D1C55AE53006D759E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFF21261C55AE53006D759E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFF21311C55AE53006D759E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAFF210B1C55AE53006D759E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFF211A1C55AE53006D759E /* ViewController.m in Sources */,
+				FAFF21171C55AE53006D759E /* AppDelegate.m in Sources */,
+				FAFF21141C55AE53006D759E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFF21241C55AE53006D759E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFF212D1C55AE53006D759E /* ___easeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFF212F1C55AE53006D759E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFF21381C55AE53006D759E /* ___easeUIUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAFF212A1C55AE53006D759E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAFF210E1C55AE53006D759E /* 环信-easeUI */;
+			targetProxy = FAFF21291C55AE53006D759E /* PBXContainerItemProxy */;
+		};
+		FAFF21351C55AE53006D759E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAFF210E1C55AE53006D759E /* 环信-easeUI */;
+			targetProxy = FAFF21341C55AE53006D759E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAFF211B1C55AE53006D759E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFF211C1C55AE53006D759E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAFF21201C55AE53006D759E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFF21211C55AE53006D759E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAFF213A1C55AE53006D759E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAFF213B1C55AE53006D759E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAFF213D1C55AE53006D759E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "环信-easeUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dongfanghong.www.---easeUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAFF213E1C55AE53006D759E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "环信-easeUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dongfanghong.www.---easeUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAFF21401C55AE53006D759E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "环信-easeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dongfanghong.www.---easeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/环信-easeUI.app/环信-easeUI";
+			};
+			name = Debug;
+		};
+		FAFF21411C55AE53006D759E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "环信-easeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dongfanghong.www.---easeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/环信-easeUI.app/环信-easeUI";
+			};
+			name = Release;
+		};
+		FAFF21431C55AE53006D759E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "环信-easeUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dongfanghong.www.---easeUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "环信-easeUI";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FAFF21441C55AE53006D759E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "环信-easeUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dongfanghong.www.---easeUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "环信-easeUI";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAFF210A1C55AE53006D759E /* Build configuration list for PBXProject "环信-easeUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFF213A1C55AE53006D759E /* Debug */,
+				FAFF213B1C55AE53006D759E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFF213C1C55AE53006D759E /* Build configuration list for PBXNativeTarget "环信-easeUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFF213D1C55AE53006D759E /* Debug */,
+				FAFF213E1C55AE53006D759E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAFF213F1C55AE53006D759E /* Build configuration list for PBXNativeTarget "环信-easeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFF21401C55AE53006D759E /* Debug */,
+				FAFF21411C55AE53006D759E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAFF21421C55AE53006D759E /* Build configuration list for PBXNativeTarget "环信-easeUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFF21431C55AE53006D759E /* Debug */,
+				FAFF21441C55AE53006D759E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAFF21071C55AE53006D759E /* Project object */;
+}
